@@ -1,13 +1,13 @@
 class Base:
     def __init__(self, x, y, size):
-        self.x = x
+        self.x = x    #simple initialization
         self.y = y
         self.size = size
     
     def draw(self):
         return ""
 
-class Circle(Base):
+class Circle(Base):   #in clude base to inhertient the data
     def __init__(self, x, y, size):
         super().__init__(x,y,size)
         
@@ -28,10 +28,10 @@ class Circle(Base):
       ' - , _ _ _ , '
 """
 class Square(Base):
-    def __init__(self,x,y, size):
+    def __init__(self,x,y, size): #x is missing
         super().__init__(x,y,size)
     
-    def draw(self):
+    def draw(self): #object, need to  put self  
         return f"""
 ({self.x}, {self.y})
 {self.size}
