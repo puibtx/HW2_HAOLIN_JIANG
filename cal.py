@@ -1,5 +1,5 @@
-def calculate(s):
-    return eval(s)
+#def calculate(s):
+    #return eval(s)
 #def calculate(s):
 #     stack = []
 #     s += '+'
