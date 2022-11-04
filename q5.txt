@@ -1,5 +1,5 @@
 increment_int_a does not change the value, because it was passed in as a value, the value is only changed in this 
 function(scope issue) the main does not see the value being changed.
-increment_int_b does change the value, because someval for b is a array, the thing is to passed in 
+increment_int_b does change the value, because someval passed in 
  by reference, it changed it at its mem location,
-thus the main fucntion are able to see it changing. 
+thus the main fucntion are able to see it changing. WHile main cant on increment_int_a.
